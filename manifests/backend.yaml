@@ -34,11 +34,11 @@ spec:
           requests:
             cpu: "100m"
             memory: "128Mi"
-        livenessProbe:
-          httpGet:
-            path: /health
-            port: 8000
-          initialDelaySeconds: 15
+        # livenessProbe:
+        #   httpGet:
+        #     path: /health
+        #     port: 8000
+        #   initialDelaySeconds: 15
 ---
 apiVersion: v1
 kind: Service
