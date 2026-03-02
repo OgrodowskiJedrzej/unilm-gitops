@@ -12,6 +12,6 @@ commonLabels:
 
 images:
   - name: unilmprod.azurecr.io/backend
-    newTag: latest
+    newTag: 1f5da85ac15875889b71bae068f63d65990b9a03
   - name: unilmprod.azurecr.io/frontend
-    newTag: latest
+    newTag: 1f5da85ac15875889b71bae068f63d65990b9a03
